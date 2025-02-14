@@ -1,0 +1,115 @@
+body {
+    background-color: hotpink;
+}
+
+main {
+    /* height: 100vh; */
+    width: 100%;
+    text-align: center;
+}
+
+#main-heading {
+    width: 100%;
+    font-size: 2.2rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-div {
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-main-div {
+    height: 40vh;
+    width: 30%;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vmin;
+}
+
+.box {
+    height: 15vh;
+    width: 29%;
+    color: brown;
+    font-size: 2.4rem;
+    background-color: bisque;
+    border: 1px solid rgb(255, 216, 167);
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 2px rgb(0, 0, 0, 0.3);
+    /* animation-name: box-hover; */
+}
+
+.box:hover {
+    
+    transition: 0.5s ease-out;
+    /* scale: translate(-2px,-2px); */
+    transform: scale(0.8,0.8);
+    /* animation: box-hover 1s infinite ease-in; */
+    background-color: rgb(255, 186, 103);
+}
+
+#reset {
+    background-color: black;
+    color: wheat;
+    font-size: 1rem;
+    padding: 15px 30px 15px 30px;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.congrates-div {
+    
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+}
+
+.congrates-heading {
+    color: blanchedalmond;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.again-game {
+    background-color: black;
+    color: beige;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+.hide {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.draw {
+    color: blanchedalmond;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.hide-draw {
+    display: none;
+}
+
+/* Style for "0" */
+.zero {
+    color: blue; /* Choose your desired color */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+/* Style for "X" */
+.x-mark {
+    color: red; /* Choose your desired color */
+    font-weight: bold; /* Optional: Make it bold */
+}
